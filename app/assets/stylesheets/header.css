@@ -53,3 +53,8 @@
   text-decoration: none;
   color: white;
 }
+
+.menu-message :hover {
+  background-color:rgba(255,255,255,0.5);
+  transition: all 1s;
+}
