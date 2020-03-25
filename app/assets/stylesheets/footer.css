@@ -8,12 +8,11 @@ footer {
   padding: 50px;
 }
 
-.footer-top h1{
-  font-size: 24px;
-}
+
 
 .footer-top p {
   margin-top: 10px;
+  font-size: 14px;
 }
 
 .footer-middle {
