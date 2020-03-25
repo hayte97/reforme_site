@@ -1,0 +1,36 @@
+footer {
+  text-align: center;
+}
+
+.footer-top {
+  clear: both;
+  border-bottom: 2px solid #eee;
+  padding: 50px;
+}
+
+
+
+.footer-top p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer-middle {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.footer-middle a {
+  text-decoration: none;
+  color: #b3aeb5;
+}
+
+.footer-bottom {
+  font-size: 12px;
+  height: 60px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
