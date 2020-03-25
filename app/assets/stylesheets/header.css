@@ -8,25 +8,16 @@
   align-items: center;
   }
 
-  .fa {
-    color: white;
-    font-size: 40px;
-    margin-right: 15px;
-  }
-
-.header-left-heading {
-  width: 150px;
-  height: 50px;
+.fa {
+  color: white;
+  font-size: 40px;
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
 .header-left p {
   margin-top: 10px;
   font-size: 14px;
-  font-weight: bold;
-}
-
-p.company-name {
-  font-size: 18px;
   font-weight: bold;
 }
 
@@ -50,7 +41,7 @@ p.company-name {
   color: white;
 }
 
-.menu-message :hover {
-  background-color:rgba(255,255,255,0.5);
-  transition: all 1s;
+.menu-message:hover {
+  color: #cf0;
+  transition: all 0.5s;
 }
