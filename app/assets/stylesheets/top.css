@@ -1,0 +1,55 @@
+.top-wrapper {
+  height: 750px;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.menus {
+  height: 300px;
+  padding: 50px 0;
+  background-color: #E6E6E6;
+}
+
+/* ul {
+  float: left;
+  width: 25%;
+} */
+
+img.img-1{
+  width: 150px;
+  height: 180px;
+}
+
+img.img-2{
+  width: 150px;
+  height: 180px;
+}
+
+img.img-3{
+  width: 150px;
+  height: 180px;
+}
+
+img.img-4{
+  width: 150px;
+  height: 180px;
+}
+
+li {
+  list-style: none;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li p {
+  padding-top: 15px;
+}
