@@ -4,13 +4,13 @@
 
 img {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 }
 
 .menus {
   height: 300px;
   padding: 50px 0;
-  background-color: #E6E6E6;
+  background-color: #f6f6f6;
 }
 
 /* ul {

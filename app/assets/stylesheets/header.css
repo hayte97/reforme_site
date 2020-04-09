@@ -15,6 +15,10 @@
   margin-top: 10px;
 }
 
+.header-left a {
+  width: 140px;
+}
+
 .header-left p {
   margin-top: 10px;
   font-size: 14px;
