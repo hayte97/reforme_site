@@ -1,0 +1,100 @@
+<div class="company-wrapper">
+  <%= render 'header'%>
+
+  <div class="main">
+    <div class="bgwrap">
+      <div class="title"></div>
+      <div class="tabMenu">
+        <span class="tab01 active">
+          <%= fa_icon 'arrow-right'%>
+          <a href="/company">
+            会社概要
+          </a>
+        </span>
+        <span class="tab02">
+          <%= fa_icon 'arrow-right'%>
+          <a href="#">
+            使用メーカー一覧
+          </a>
+        </span>
+      </div>
+
+      <div class="tabContents01">
+        <ul class="tableBox">
+          <li>
+            <span class="tblhead">社名</span>
+            <span class="tblcont">おうちの１１０番</span>
+          </li>
+          <li>
+            <span class="tblhead">設立</span>
+            <span class="tblcont">平成◯年◯月◯日</span>
+          </li>
+          <li>
+            <span class="tblhead">所在地</span>
+            <span class="tblcont">東京都〇〇区〇〇1-2-3〇〇ビル〇階</span>
+          </li>
+          <li>
+            <span class="tblhead">代表取締役</span>
+            <span class="tblcont">◯◯　◯</span>
+          </li>
+          <li>
+            <span class="tblhead">TEL</span>
+            <span class="tblcont">080-1234-5678</span>
+          </li>
+          <li>
+            <span class="tblhead">事業内容</span>
+            <span class="tblcont">住宅リフォーム</span>
+          </li>
+        </ul>
+
+        <div class="grayBg"></div>
+      </div>
+    </div>
+
+    <div class="topicpath">
+      <p>
+        <a href="/top">
+          <%= fa_icon 'home'%>
+        </a>
+        <%= fa_icon 'angle-right'%>
+        会社案内
+      </p>
+    </div>
+
+    <div class="menus">
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="/company">
+              <img class="img-1" src="/assets/reform4.jpg" alt="会社案内">
+              <p>会社案内</p>
+            </a>
+          </li>
+  
+          <li>
+            <a href="#">
+              <img class="img-2" src="/assets/reform2.jpg" alt="事業内容">
+              <p>事業内容</p>
+            </a>
+          </li>
+  
+          <li>
+            <a href="#">
+              <img class="img-3" src="/assets/reform5.jpg" alt="施工事例">
+              <p>施工事例</p>
+            </a>
+          </li>
+  
+          <li>
+            <a href="#">
+              <img class="img-4" src="/assets/reform3.jpg" alt="お問い合わせ">
+              <p>お問い合わせ</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <%= render 'footer'%>
+</div>
