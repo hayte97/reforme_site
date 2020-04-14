@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.renovalead {
+  font-size: 17px;
+  width: 1280px;
+  margin: 28px auto 35px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.renovalead p {
+  clear: left;
+}
+
+br {
+  font-style: normal;
+}
