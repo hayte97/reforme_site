@@ -81,6 +81,7 @@ a {
 }
 
 .tabMenu span {
+  width: calc((1143px - 120px) / 2 );
   display: table-cell;
   text-align: center;
 }
