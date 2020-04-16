@@ -9,6 +9,9 @@ class HomeController < ApplicationController
   def service
   end
 
+  def portfolio
+  end
+
   def contact
   end
   

@@ -27,18 +27,6 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
-
-  .btn {
-    width: 100%;
-  }
-
-  .facebook {
-    margin-bottom: 10px;
-  }
-
   .top-wrapper {
     text-align: left;
   }

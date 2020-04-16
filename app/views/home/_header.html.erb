@@ -1,17 +1,17 @@
 <header>
   <div class="container">
     <div class="header-left">
-      <a href="/top" class="header-left-heading">
+      <%= link_to root_path, class: "header-left-heading" do %>
         <%= fa_icon 'amazon' %>
         株式会社 おうちの110番
-      </a>
+      <% end %>
     </div>
     <span class="fa fa-bars menu-icon"></span>
     <div class="header-right">
-      <a href="/company">会社案内</a>
-      <a href="/possible">事業内容</a>
-      <a href="#">施工事例</a>
-      <a href="#">お問い合わせ</a>
+      <%= link_to '会社案内', company_path %>
+      <%= link_to '事業内容', service_path %>
+      <%= link_to '施工事例', portfolio_path %>
+      <%= link_to 'お問い合わせ', contact_path %>
     </div>
   </div>
 </header>
