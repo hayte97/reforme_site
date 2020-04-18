@@ -70,4 +70,20 @@
   .min-content img {
     width: 100%;
   }
+
+  .content {
+    margin-top: 0;
+  }
+
+  .contact-heading {
+    font-size: 15px;
+  }
+
+  .tel a {
+    font-size: 20px;
+  }
+
+  .tel-heading {
+    font-size: 15px;
+  }
 }
