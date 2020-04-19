@@ -35,6 +35,10 @@
     display: none;
   }
 
+  .menu-wrapper {
+    padding-top: 30px;
+  }
+
   .menu-icon {
     display: block;
   }
@@ -58,17 +62,20 @@
   }
 
   .slider {
-    display: none;
-  }
-
-  .min-content {
-    display: block!important;
-    margin-top: 80px;
-    padding: 0 10%;
-  }
-
-  .min-content img {
     width: 100%;
+  }
+
+  .slick-arrow {
+    display: none!important;
+  }
+
+  .top-content-top {
+    font-size: 20px;
+  }
+
+  .top-content-bottom {
+    font-size: 15px;
+    margin: 15px 0;
   }
 
   .content {
