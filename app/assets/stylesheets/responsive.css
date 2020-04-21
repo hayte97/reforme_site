@@ -35,6 +35,10 @@
     display: none;
   }
 
+  .menu-wrapper {
+    padding-top: 30px;
+  }
+
   .menu-icon {
     display: block;
   }
@@ -57,18 +61,22 @@
     margin-top: 15px;
   }
 
+  /* トップ画面 */
   .slider {
-    display: none;
-  }
-
-  .min-content {
-    display: block!important;
-    margin-top: 80px;
-    padding: 0 10%;
-  }
-
-  .min-content img {
     width: 100%;
+  }
+
+  .slick-arrow {
+    display: none!important;
+  }
+
+  .top-content-top {
+    font-size: 20px;
+  }
+
+  .top-content-bottom {
+    font-size: 15px;
+    margin: 15px 0;
   }
 
   .content {
@@ -86,4 +94,41 @@
   .tel-heading {
     font-size: 15px;
   }
+
+  /* 会社概要 */
+  .company {
+    padding: 20px 0;
+  }
+
+  .company-menu {
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: none;
+    display: block;
+  }
+
+  .menu-list {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #eaab12;
+  }
+
+  .list-content {
+    border-top: 2px solid lightgreen;
+  }
+
+  .table-head {
+    width: 100%;
+    display: block;
+    padding: .5em 20px;
+    text-align: left;
+  }
+
+  .table-content {
+    width: 100%;
+    display: block;
+    padding: .5em 20px;
+  }
+
 }

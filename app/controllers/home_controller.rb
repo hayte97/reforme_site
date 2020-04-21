@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
 
   def top
+    @images = ["top1.jpg", "top2.jpg"]
   end
 
   def company
