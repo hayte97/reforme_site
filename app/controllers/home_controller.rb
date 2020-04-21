@@ -10,7 +10,7 @@ class HomeController < ApplicationController
   def service
   end
 
-  def portfolio
+  def skill
   end
 
   def contact
