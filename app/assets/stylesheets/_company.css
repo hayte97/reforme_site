@@ -85,6 +85,18 @@
   width: 80%;
 }
 
+/* メーカー初期画面非表示 */
 #maker {
   display: none;
+}
+
+.maker-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.maker-content {
+  width: 33%;
+  list-style: none;
+  border: 1px solid #ddd;
 }

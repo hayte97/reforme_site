@@ -23,6 +23,11 @@
   .flex-list li {
     width: 50%;
   }
+  
+  /* 使用メーカー一覧 */
+  .maker-content {
+    width: 50%;
+  }
 }
 
 /* スマホ向けレイアウト */
@@ -129,6 +134,11 @@
     width: 100%;
     display: block;
     padding: .5em 20px;
+  }
+
+  /* 使用メーカー一覧 */
+  .maker-content {
+    width: 100%;
   }
 
 }

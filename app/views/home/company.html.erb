@@ -8,9 +8,7 @@
         <a class="menu-title">使用メーカー 一覧</a>
       </span>
     </div>
-    <div class="company-info" id="maker">
-      メーカー
-    </div>
+    <%# 会社概要 %>
     <div class="company-info" id="company">
       <ul class="info-list">
         <li class="list-content">
@@ -61,6 +59,16 @@
             住宅リフォーム
           </span>
         </li>
+      </ul>
+    </div>
+    <%# 使用メーカー %>
+    <div class="company-info" id="maker">
+      <ul class="maker-list">
+        <% @makers.each do |name, img| %>
+          <li class="maker-content">
+            <%= image_tag img, alt: "#{name}" %>
+          </li>
+        <% end %>
       </ul>
     </div>
   </div>

@@ -5,6 +5,7 @@ class HomeController < ApplicationController
   end
 
   def company
+    @makers = { lixil1: "lixil.png", lixil2: "lixil.png", lixil3: "lixil.png", lixil4: "lixil.png" }
   end
 
   def service
