@@ -11,54 +11,16 @@
     <%# 会社概要 %>
     <div class="company-info" id="company">
       <ul class="info-list">
-        <li class="list-content">
-          <span class="table-head">
-            社名
-          </span>
-          <span class="table-content">
-            株式会社おうちの110番
-          </span>
-        </li>
-        <li class="list-content">
-          <span class="table-head">
-            設立
-          </span>
-          <span class="table-content">
-            平成◯年◯月◯日
-          </span>
-        </li>
-        <li class="list-content">
-          <span class="table-head">
-            所在地
-          </span>
-          <span class="table-content">
-            東京都〇〇区〇〇1-2-3〇〇ビル〇階
-          </span>
-        </li>
-        <li class="list-content">
-          <span class="table-head">
-            代表取締役
-          </span>
-          <span class="table-content">
-            ◯◯ ◯◯
-          </span>
-        </li>
-        <li class="list-content">
-          <span class="table-head">
-            TEL
-          </span>
-          <span class="table-content">
-            080-1234-5678
-          </span>
-        </li>
-        <li class="list-content">
-          <span class="table-head">
-            事業内容
-          </span>
-          <span class="table-content">
-            住宅リフォーム
-          </span>
-        </li>
+        <% @company.each do |head,content| %>
+          <li class="list-content">
+            <span class="table-head">
+              <%= head %>
+            </span>
+            <span class="table-content">
+              <%= content %>
+            </span>
+          </li>
+        <% end %>
       </ul>
     </div>
     <%# 使用メーカー %>

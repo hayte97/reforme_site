@@ -100,12 +100,12 @@
     font-size: 15px;
   }
 
-  /* 会社概要 */
-  .company {
+  /* 会社概要・事業内容 */
+  .company, .service {
     padding: 20px 0;
   }
 
-  .company-menu {
+  .company-menu, .service-menu {
     padding: 0 20px;
     width: 100%;
     margin: 0 auto;

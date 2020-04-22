@@ -1,124 +1,31 @@
-<div class="wrap">
-  <%= render 'header'%>
-  <div class="main">
-    <div class="bgwrap">
-      <div class="renovalead">
-        <p>
-          建設時には必要な確認申請を受けると言う公的機関のチェックもリフォームの場合はほとんど必要としません。その代わり構造の違いや、
-          <br>
-            建築基準法・地域の条例などの法的な規約によってできることが変わってきますし、戸建とマンションによってもその制限は変わってきます。
-          </br>
-        </p>
-        <p>ここでは一般的なできること・できないことを説明致します。</p>
-        <p>やりたいリフォームによっては家の構造・法的規制などが変わってくる場合もありますので、お気軽にお問い合わせください。</p>
-      </div>
-      <div class="tabMenu">
-        <span class="tab01 active">
-          <%= fa_icon 'arrow-right'%>
-          <a href="/service">
-            戸田て
-          </a>
-        </span>
-        <span class="tab02">
-          <%= fa_icon 'arrow-right'%>
-          <a href="#">
-            マンション
-          </a>
-        </span>
-      </div>
-
-      <div class="tabContents01">
-        <p class="renovationImage">
-          <img src="" alt="">
-        </p>
-        <div class="renovationInner">
-          <p>
-            戸建のリフォームは建物、敷地を含めてご自身の持ち物なので、様々なリフォームが比較的自由に可能です。
-          </p>
-          <p>
-            しかし、リフォームの内容によっては建物の構造や、建築基準法・地域条例等の制約を受ける場合もあります。
-          </p>
-        </div>
-        <ul class="tableBox">
-          <li>
-            <span class="tblhead">屋根</span>
-            <span class="tblcont">葺き替え防水処理などが可能。構造によってトップライト（天窓）や吹抜けも作れます。</span>
-          </li>
-          <li>
-            <span class="tblhead">外壁</span>
-            <span class="tblcont">塗装、張り替えなどが可能。張り替えの場合は地域によっては防火規制を確認した方が良い。</span>
-          </li>
-          <li>
-            <span class="tblhead">玄関ドア</span>
-            <span class="tblcont">交換可能。地域によっては防火規制を確認した方が良い。</span>
-          </li>
-          <li>
-            <span class="tblhead">屋内クラス</span>
-            <span class="tblcont">張り替え可能。構造によっては耐震補強や断熱材施工ができるので考えている場合は一緒に行う方が良い。</span>
-          </li>
-          <li>
-            <span class="tblhead">床下</span>
-            <span class="tblcont">基礎の補強や床下断熱、フローリングの張り替えなどが可能。</span>
-          </li>
-          <li>
-            <span class="tblhead">水回り</span>
-            <span class="tblcont">移動や増設などは比較的自由にできます。</span>
-          </li>
-          <li>
-            <span class="tblhead">間取り</span>
-            <span class="tblcont">基本的に自由度の高いリフォームが可能ですが、構造上取り除くことができない壁や柱もありますので、弊社専門スタッフにご相談ください。</span>
-          </li>
-          <li>
-            <span class="tblhead">増築</span>
-            <span class="tblcont">建築基準法に沿ってリフォームすることが可能です。また地域によってそれぞれ規制等もありますので、弊社専門スタッフにご相談ください。</span>
-          </li>
-        </ul>
-      </div>
-
+<div class="service">
+  <div class="service-content">
+    <div class="service-menu">
+      <span class="menu-list">
+        <a class="menu-titile active">戸建て</a>
+      </span>
+      <span class="menu-list">
+        <a class="menu-titile">マンション</a>
+      </span>
     </div>
-
-    <div class="topicpath">
-      <p>
-        <a href="/top">
-          <%= fa_icon 'home'%>
-        </a>
-        <%= fa_icon 'angle-right'%>
-        会社案内
-      </p>
+    <!-- 戸建て -->
+    <div class="service-info" id="house">
+      <ul class="info-list">
+        <% @houses.each do |head,content| %>
+          <li class="list-content">
+            <span class="table-head">
+              <%= head %>
+            </span>
+            <span class="table-content">
+              <%= content %>
+            </span>
+          </li>
+        <% end %>
+      </ul>
     </div>
-
-    <div class="menus">
-      <div class="menu">
-        <ul>
-          <li>
-            <a href="/company">
-              <img class="img-1" src="/assets/reform4.jpg" alt="会社案内">
-              <p>会社案内</p>
-            </a>
-          </li>
-  
-          <li>
-            <a href="/possible">
-              <img class="img-2" src="/assets/reform2.jpg" alt="事業内容">
-              <p>事業内容</p>
-            </a>
-          </li>
-  
-          <li>
-            <a href="#">
-              <img class="img-3" src="/assets/reform5.jpg" alt="施工事例">
-              <p>施工事例</p>
-            </a>
-          </li>
-  
-          <li>
-            <a href="#">
-              <img class="img-4" src="/assets/reform3.jpg" alt="お問い合わせ">
-              <p>お問い合わせ</p>
-            </a>
-          </li>
-        </ul>
-      </div>
+    <!-- マンション -->
+    <div class="service-info" id="mansion">
+          
     </div>
   </div>
 </div>
