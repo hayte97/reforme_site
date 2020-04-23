@@ -2,10 +2,10 @@
   <div class="service-content">
     <div class="service-menu">
       <span class="menu-list">
-        <a class="menu-titile active">戸建て</a>
+        <a class="menu-title active">戸建て</a>
       </span>
       <span class="menu-list">
-        <a class="menu-titile">マンション</a>
+        <a class="menu-title">マンション</a>
       </span>
     </div>
     <!-- 戸建て -->
@@ -25,7 +25,18 @@
     </div>
     <!-- マンション -->
     <div class="service-info" id="mansion">
-          
+      <ul class="info-list">
+        <% @mansion.each do |head,content| %>
+          <li class="list-content">
+            <span class="table-head">
+              <%= head %>
+            </span>
+            <span class="table-content">
+              <%= content %>
+            </span>
+          </li>
+        <% end %>
+      </ul>
     </div>
   </div>
 </div>
