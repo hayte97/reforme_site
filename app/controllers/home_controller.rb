@@ -20,7 +20,7 @@ class HomeController < ApplicationController
       "事業内容" => "住宅リフォーム"
     }
 
-    @makers = { lixil1: "lixil.png", lixil2: "lixil.png", lixil3: "lixil.png", lixil4: "lixil.png" }
+    @makers = { lixil: "lixil.png", toto: "toto.png", tostem: "tostem.png", sankyo: "sankyo.png", sunwave: "sunwave.png", panaspnic: "panasonic.png", mitsubishi: "mitsubishi.png", sangetsu: "sangetsu.png", noda: "noda.png", lilikara: "lilikara.png", kurinap: "kurinap.png", kmew: "kmew.png" }
   end
 
   def service
