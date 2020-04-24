@@ -3,6 +3,19 @@ $(function () {
   let menus = $('.menu-title');
   menusAry = Array.prototype.slice.call(menus);
 
+  // メニュー名を取得
+  let menu1 = menusAry[0].text;
+  let menu2 = menusAry[1].text;
+
+  // コンテンツ情報を取得
+  let contents = $('.content-info');
+  contentsAry = Array.prototype.slice.call(contents);
+
+  // コンテンツのidを取得
+  let content1 = contentsAry[0]
+  let content2 = contentsAry[1];
+
+
   // メニューの中でクリックイベントが発生した場所を探し、下で定義したtabSwitch関数を呼び出す
   menusAry.forEach(function (value) {
     value.addEventListener("click", menuSwitch);
@@ -16,14 +29,13 @@ $(function () {
     // クリックしたタブにactiveクラスを追加
     this.classList.add("active");
 
-    // メニューの要素を非表示
-    $('.company-info').css('display', 'none');
+    // コンテンツの要素を非表示
+    $('.content-info').css('display', 'none');
 
-    if ($(this).text() === '会社概要') {
-      $('#company').css('display', 'block');
-    } else if ($(this).text() === '使用メーカー 一覧') {
-      $('#maker').css('display', 'block');
+    if ($(this).text() === menu1) {
+      content1.style.display = "block";
+    } else if ($(this).text() === menu2) {
+      content2.style.display = "block";
     }
   }
-
 });
