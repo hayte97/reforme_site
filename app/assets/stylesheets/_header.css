@@ -9,6 +9,7 @@ header {
 
 .header-left {
   float: left;
+  line-height: 80px;
 }
 
 .header-left a {
