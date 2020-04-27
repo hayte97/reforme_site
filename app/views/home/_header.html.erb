@@ -1,16 +1,14 @@
 <header>
-  <div class="container">
-    <div class="header-left">
-      <%= link_to root_path, class: "header-left-heading" do %>
-        株式会社 おうちの110番
-      <% end %>
-    </div>
-    <span class="fa fa-bars menu-icon"></span>
-    <div class="header-right">
-      <%= link_to '会社案内', company_path %>
-      <%= link_to '事業内容', service_path %>
-      <%= link_to '施工事例', portfolio_path %>
-      <%= link_to 'お問い合わせ', contact_path %>
-    </div>
+  <div class="header-left">
+    <%= link_to root_path, class: "header-left-heading" do %>
+      株式会社 おうちの110番
+    <% end %>
+  </div>
+  <%= fa_icon 'bars', class: 'menu-icon', id: 'bars' %>
+  <div class="header-right">
+    <%= link_to '会社案内', company_path %>
+    <%= link_to '事業内容', service_path %>
+    <%= link_to '施工事例', portfolio_path %>
+    <%= link_to 'お問い合わせ', contact_path %>
   </div>
 </header>

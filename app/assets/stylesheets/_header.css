@@ -10,6 +10,7 @@ header {
 .header-left {
   float: left;
   line-height: 80px;
+  padding: 0 15px;
 }
 
 .header-left a {
@@ -18,16 +19,10 @@ header {
   font-size: 30px;
 }
 
-.fa {
-  color: white;
-  margin-right: 15px;
-  line-height: 80px;
-  font-weight: bold;
-}
-
 .header-right {
   float: right;
   margin-right: -25px;
+  padding: 0 15px;
 }
 
 .header-right a {
@@ -49,4 +44,5 @@ header {
   font-size: 25px;
   display: none;
   line-height: 80px;
+  padding: 0 15px;
 }
