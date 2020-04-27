@@ -1,0 +1,19 @@
+<div class="portfolio">
+  <div class="container">
+    <p class="case-message">おうちの１１０番の高い技術により、たくさんのお客様にご満足して頂いております。
+      <br>その中で一部ではありますが、施工事例をご紹介させて頂きます。</br>
+    </p>
+    <div class="case-list">
+      <% @cases.each do |image,title| %>
+        <ul class="list">
+          <li class="case-img">
+            <%= image_tag image %>
+          </li>
+          <li class="case-title">
+            <%= title %>
+          </li>
+        </ul>
+      <% end %>
+    </div>
+  </div>
+</div>

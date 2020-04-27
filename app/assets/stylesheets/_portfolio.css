@@ -1,0 +1,31 @@
+.portfolio {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 50px;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.case-message {
+  text-align: center;
+  font-size: 18px;
+}
+
+.case-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  width: 50%;
+  list-style: none;
+}
+
+
+
+

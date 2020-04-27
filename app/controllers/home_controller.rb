@@ -5,7 +5,7 @@ class HomeController < ApplicationController
     @menus = [
       { content: "会社案内", link: "/company", image: "reform4.jpg" },
       { content: "事業内容", link: "/service", image: "reform2.jpg" },
-      { content: "私たちの強み", link: "/skill", image: "reform5.jpg" },
+      { content: "施工事例", link: "/portfolio", image: "reform5.jpg" },
       { content: "お問い合わせ",link: "/contact", image: "reform3.jpg" }
     ]
   end
@@ -46,7 +46,30 @@ class HomeController < ApplicationController
     }
   end
 
-  def skill
+  def portfolio
+   
+    @cases = {
+      "case_btn01.jpg" => "case01: キッチン工事",
+      "case_btn02.jpg" => "case02: 手すり取り付け工事",
+      "case_btn03.jpg" => "case03: 瓦屋根葺き替え工事",
+      "case_btn04.jpg" => "case04: フルリフォーム工事",
+      "case_btn05.jpg" => "case05: トイレの交換",
+      "case_btn06.jpg" => "case06: リビング工事",
+      "case_btn07.jpg" => "case07: 基礎補強工事",
+      "case_btn08.jpg" => "case08: トイレ戸棚工事",
+      "case_btn09.jpg" => "case09: 畳張り替え工事",
+      "case_btn10.jpg" => "case10: 和室のリフォーム",
+      "case_btn11.jpg" => "case11: エアコン組み込み工事",
+      "case_btn12.jpg" => "case12: セメント瓦から横暖ルーフへの葺き替え工事",
+      "case_btn13.jpg" => "case13: ユニットバス交換工事",
+      "case_btn14.jpg" => "case14: 劣化した塗装面工事",
+      "case_btn15.jpg" => "case15: 換気扇交換工事",
+      "case_btn16.jpg" => "case16: 雨樋点検修理",
+      "case_btn17.jpg" => "case17: 地震で壊れた土壁工事",
+      "case_btn18.jpg" => "case18: 玄関ドアの交換",
+      "case_btn19.jpg" => "case19: 障子張り替え工事",
+      "case_btn20.jpg" =>"case20: シャワー取り替え工事"
+    }
   end
 
   def contact
