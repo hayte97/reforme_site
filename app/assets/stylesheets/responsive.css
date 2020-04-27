@@ -28,6 +28,11 @@
   .maker-content {
     width: 50%;
   }
+
+  /* 施工事例 */
+  .contents {
+    width: 50%;
+  }
 }
 
 /* スマホ向けレイアウト */
@@ -138,6 +143,11 @@
 
   /* 使用メーカー一覧 */
   .maker-content {
+    width: 100%;
+  }
+
+  /* 施工事例 */
+  .contents {
     width: 100%;
   }
 
