@@ -23,7 +23,20 @@
   .flex-list li {
     width: 50%;
   }
-  
+
+  /* 使用メーカー一覧 */
+  .maker-content {
+    width: 50%;
+  }
+
+  /* 施工事例 */
+  .portfolio {
+    padding: 30px 0;
+  }
+
+  .case-message {
+    font-size: 18px;
+  }
 }
 
 /* スマホ向けレイアウト */
@@ -152,6 +165,19 @@
   /* 施工事例 */
   .list {
     width: 100%;
+  }
+
+  .case-message {
+    padding: 0;
+  }
+
+  .smart {
+    display: block;
+    padding: 0;
+  }
+
+  .pctab {
+    display: none;
   }
 
 }

@@ -28,7 +28,7 @@
       <ul class="maker-list">
         <% @makers.each do |name, img| %>
           <li class="maker-content">
-            <%= image_tag img, alt: "#{name}" %>
+            <%= image_tag img, alt: name %>
           </li>
         <% end %>
       </ul>
