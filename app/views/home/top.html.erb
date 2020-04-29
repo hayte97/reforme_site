@@ -14,7 +14,7 @@
     <% @menus.each_with_index do |item,i| %>
       <li class="list<%= i + 1 %>">
         <%= link_to item[:link] do %>
-          <%= image_tag "#{item[:image]}", alt: "#{item[:content]}" %>
+          <%= image_tag item[:image], alt: item[:content] %>
           <p><%= item[:content] %></p>
         <% end %>
       </li>
