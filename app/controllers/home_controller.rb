@@ -1,12 +1,12 @@
 class HomeController < ApplicationController
 
   def top
-    @images = [ "top1.jpg", "top2.jpg" ]
+    @images = [ "top1.jpg", "top2.jpg", "top3.jpg" ]
     @menus = [
-      { content: "会社案内", link: "/company", image: "reform4.jpg" },
+      { content: "会社案内", link: "/company", image: "reform1.jpg" },
       { content: "事業内容", link: "/service", image: "reform2.jpg" },
-      { content: "施工事例", link: "/portfolio", image: "reform5.jpg" },
-      { content: "お問い合わせ",link: "/contact", image: "reform3.jpg" }
+      { content: "施工事例", link: "/portfolio", image: "reform3.jpg" },
+      { content: "お問い合わせ",link: "/contact", image: "reform4.jpg" }
     ]
   end
 
