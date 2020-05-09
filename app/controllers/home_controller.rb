@@ -3,25 +3,14 @@ class HomeController < ApplicationController
   def top
     @images = [ "top1.jpg", "top2.jpg" ]
     @menus = [
-      { content: "会社案内", link: "/company", image: "reform4.jpg" },
       { content: "事業内容", link: "/service", image: "reform2.jpg" },
       { content: "施工事例", link: "/portfolio", image: "reform5.jpg" },
-      { content: "お問い合わせ",link: "/contact", image: "reform3.jpg" }
+      { content: "お問い合わせ",link: "/contact", image: "reform3.jpg" },
+      { content: "会社案内", link: "/company", image: "reform4.jpg" }
     ]
   end
 
-  def company
-    @company = {
-      "会社" => "株式会社おうちの110番",
-      "設立" => "平成◯年◯月◯日",
-      "所在地" => "東京都〇〇区〇〇1-2-3〇〇ビル〇階",
-      "代表取締役" => "◯◯ ◯◯",
-      "TEL" => "080-1234-5678",
-      "事業内容" => "住宅リフォーム"
-    }
-
-    @makers = { lixil: "lixil.png", toto: "toto.png", tostem: "tostem.png", sankyo: "sankyo.png", sunwave: "sunwave.png", panaspnic: "panasonic.png", mitsubishi: "mitsubishi.png", sangetsu: "sangetsu.png", noda: "noda.png", lilikara: "lilikara.png", kurinap: "kurinap.png", kmew: "kmew.png" }
-  end
+  
 
   def service
     @houses = { 
@@ -67,12 +56,31 @@ class HomeController < ApplicationController
       "case_btn16.jpg" => "case16: 雨樋点検修理",
       "case_btn17.jpg" => "case17: 地震で壊れた土壁工事",
       "case_btn18.jpg" => "case18: 玄関ドアの交換",
-      "case_btn19.jpg" => "case19: 障子張り替え工事",
+      "case_btn19.jpg" => "case19: ハウスクリーニング",
       "case_btn20.jpg" =>"case20: シャワー取り替え工事"
     }
   end
 
   def contact
+  end
+
+  def company
+    @company = {
+      "会社" => "株式会社おうちの110番",
+      "設立" => "平成◯年◯月◯日",
+      "所在地" => "東京都〇〇区〇〇1-2-3〇〇ビル〇階",
+      "代表取締役" => "◯◯ ◯◯",
+      "TEL" => "080-1234-5678",
+      "事業内容" => "住宅リフォーム"
+    }
+
+    @makers = { lixil: "lixil.png", toto: "toto.png", tostem: "tostem.png", sankyo: "sankyo.png", sunwave: "sunwave.png", panaspnic: "panasonic.png", mitsubishi: "mitsubishi.png", sangetsu: "sangetsu.png", noda: "noda.png", lilikara: "lilikara.png", kurinap: "kurinap.png", kmew: "kmew.png" }
+    # @menus = [
+    #   { name: "lixil", image: "lixil.png", link: "/https://www.lixil.co.jp/" },
+    #   { name: "toto", image: "toto.png", link: "/https://jp.toto.com/" },
+    #   { name: "tostem",image: "tostem.png", link: "/https://tostem.lixil.co.jp/" },
+    #   { name: "sankyo", image: "sankyo.png", link: "/https://alumi.st-grp.co.jp/" }
+    # ]
   end
   
 end
