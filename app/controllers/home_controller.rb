@@ -3,10 +3,10 @@ class HomeController < ApplicationController
   def top
     @images = [ "top1.jpg", "top2.jpg", "top3.jpg" ]
     @menus = [
-      { content: "会社案内", link: "/company", image: "reform1.jpg" },
       { content: "事業内容", link: "/service", image: "reform2.jpg" },
       { content: "施工事例", link: "/portfolio", image: "reform3.jpg" },
-      { content: "お問い合わせ",link: "/contact", image: "reform4.jpg" }
+      { content: "お問い合わせ",link: "/contact", image: "reform4.jpg" },
+      { content: "会社案内", link: "/company", image: "reform1.jpg" }
     ]
   end
 
@@ -67,7 +67,7 @@ class HomeController < ApplicationController
       "case_btn16.jpg" => "case16: 雨樋点検修理",
       "case_btn17.jpg" => "case17: 地震で壊れた土壁工事",
       "case_btn18.jpg" => "case18: 玄関ドアの交換",
-      "case_btn19.jpg" => "case19: 障子張り替え工事",
+      "case_btn19.jpg" => "case19: ハウスクリーニング",
       "case_btn20.jpg" =>"case20: シャワー取り替え工事"
     }
   end
