@@ -6,13 +6,13 @@ class HomeController < ApplicationController
       { content: "事業内容", link: "/service", image: "reform2.jpg" },
       { content: "施工事例", link: "/portfolio", image: "reform3.jpg" },
       { content: "お問い合わせ",link: "/contact", image: "reform4.jpg" },
-      { content: "会社案内", link: "/company", image: "reform1.jpg" }
+      { content: "案内", link: "/company", image: "reform1.jpg" }
     ]
   end
 
   def company
     @company = {
-      "会社" => "株式会社おうちの110番",
+      # "会社" => "株式会社おうちの110番",
       "所在地" => "東京都葛飾区西水元5-16-1",
       "代表取締役" => "松原 翔梧",
       "TEL" => "03-6315-9442",
